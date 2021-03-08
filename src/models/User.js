@@ -13,9 +13,9 @@ const Schema = new mongoose.Schema({
     type: String,
     required: false
   },
-  actice: {
+  active: {
     type: Boolean,
-    default: true
+    required: true
   }
 })
 
